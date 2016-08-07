@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPS-p0-VJ5">
+                                <rect key="frame" x="125" y="269" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="nlq-XD-fFX"/>
+                                    <constraint firstAttribute="height" constant="30" id="xGs-Ci-TEN"/>
+                                </constraints>
+                                <state key="normal" title="召唤弹窗"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gPS-p0-VJ5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="60z-Ep-JLO"/>
+                            <constraint firstItem="gPS-p0-VJ5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AtX-bu-DSQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="popBtn" destination="gPS-p0-VJ5" id="NyO-JU-KIT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="149" y="213"/>
+        </scene>
+        <!--Popup WindowVC-->
+        <scene sceneID="kIQ-ea-YsG">
+            <objects>
+                <viewController storyboardIdentifier="QWPopupWindowVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="14u-0T-VWT" customClass="QWPopupWindowVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9In-u6-6wS"/>
+                        <viewControllerLayoutGuide type="bottom" id="thv-LP-bjr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cSP-nb-k9D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wFF-Uy-oV5" userLabel="底部容器">
+                                <rect key="frame" x="0.0" y="480" width="320" height="171"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是弹窗" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tt9-mL-TG9">
+                                        <rect key="frame" x="8" y="75" width="304" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="caS-eu-0rV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1843137255" green="0.65490196079999996" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="tt9-mL-TG9" firstAttribute="top" secondItem="wFF-Uy-oV5" secondAttribute="top" constant="75" id="83X-Cf-Ea2"/>
+                                    <constraint firstAttribute="trailing" secondItem="tt9-mL-TG9" secondAttribute="trailing" constant="8" id="QFE-1G-00W"/>
+                                    <constraint firstItem="tt9-mL-TG9" firstAttribute="leading" secondItem="wFF-Uy-oV5" secondAttribute="leading" constant="8" id="iP3-Gj-DA4"/>
+                                    <constraint firstAttribute="height" constant="171" id="nOv-9P-dir"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQR-68-bOQ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wFF-Uy-oV5" firstAttribute="leading" secondItem="cSP-nb-k9D" secondAttribute="leading" id="RQd-8o-0kL"/>
+                            <constraint firstItem="wFF-Uy-oV5" firstAttribute="top" secondItem="KQR-68-bOQ" secondAttribute="bottom" id="dca-bM-v1j"/>
+                            <constraint firstAttribute="trailing" secondItem="wFF-Uy-oV5" secondAttribute="trailing" id="hV1-rS-WSB"/>
+                            <constraint firstItem="KQR-68-bOQ" firstAttribute="top" secondItem="cSP-nb-k9D" secondAttribute="top" id="n3C-Fi-xRa"/>
+                            <constraint firstAttribute="trailing" secondItem="KQR-68-bOQ" secondAttribute="trailing" id="wYv-Ju-Vas"/>
+                            <constraint firstItem="thv-LP-bjr" firstAttribute="top" secondItem="wFF-Uy-oV5" secondAttribute="bottom" constant="-171" id="xca-yL-JGe"/>
+                            <constraint firstItem="KQR-68-bOQ" firstAttribute="leading" secondItem="cSP-nb-k9D" secondAttribute="leading" id="yhb-Za-9ZE"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="dismissBtn" destination="KQR-68-bOQ" id="7Q9-Wi-JJi"/>
+                        <outlet property="viewBottomConstraint" destination="xca-yL-JGe" id="EsK-t5-jsi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3LH-SP-SpO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="527" y="98"/>
+        </scene>
+    </scenes>
+</document>

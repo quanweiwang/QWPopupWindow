@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7615F27A1D53891900B2BECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615F2791D53891900B2BECB /* main.m */; };
+		7615F27D1D53891900B2BECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615F27C1D53891900B2BECB /* AppDelegate.m */; };
+		7615F2801D53891900B2BECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615F27F1D53891900B2BECB /* ViewController.m */; };
+		7615F2831D53891900B2BECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7615F2811D53891900B2BECB /* Main.storyboard */; };
+		7615F2851D53891900B2BECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7615F2841D53891900B2BECB /* Assets.xcassets */; };
+		7615F2881D53891900B2BECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7615F2861D53891900B2BECB /* LaunchScreen.storyboard */; };
+		7615F2931D53891900B2BECB /* QWPopupWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615F2921D53891900B2BECB /* QWPopupWindowTests.m */; };
+		7615F29F1D53899100B2BECB /* QWPopupWindowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615F29E1D53899100B2BECB /* QWPopupWindowVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7615F28F1D53891900B2BECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7615F26D1D53891900B2BECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7615F2741D53891900B2BECB;
+			remoteInfo = QWPopupWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7615F2751D53891900B2BECB /* QWPopupWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QWPopupWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7615F2791D53891900B2BECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7615F27B1D53891900B2BECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7615F27C1D53891900B2BECB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7615F27E1D53891900B2BECB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7615F27F1D53891900B2BECB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7615F2821D53891900B2BECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7615F2841D53891900B2BECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7615F2871D53891900B2BECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7615F2891D53891900B2BECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7615F28E1D53891900B2BECB /* QWPopupWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QWPopupWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7615F2921D53891900B2BECB /* QWPopupWindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QWPopupWindowTests.m; sourceTree = "<group>"; };
+		7615F2941D53891900B2BECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7615F29D1D53899100B2BECB /* QWPopupWindowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWPopupWindowVC.h; sourceTree = "<group>"; };
+		7615F29E1D53899100B2BECB /* QWPopupWindowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWPopupWindowVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7615F2721D53891900B2BECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7615F28B1D53891900B2BECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7615F26C1D53891900B2BECB = {
+			isa = PBXGroup;
+			children = (
+				7615F2771D53891900B2BECB /* QWPopupWindow */,
+				7615F2911D53891900B2BECB /* QWPopupWindowTests */,
+				7615F2761D53891900B2BECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7615F2761D53891900B2BECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7615F2751D53891900B2BECB /* QWPopupWindow.app */,
+				7615F28E1D53891900B2BECB /* QWPopupWindowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7615F2771D53891900B2BECB /* QWPopupWindow */ = {
+			isa = PBXGroup;
+			children = (
+				7615F29D1D53899100B2BECB /* QWPopupWindowVC.h */,
+				7615F29E1D53899100B2BECB /* QWPopupWindowVC.m */,
+				7615F27B1D53891900B2BECB /* AppDelegate.h */,
+				7615F27C1D53891900B2BECB /* AppDelegate.m */,
+				7615F27E1D53891900B2BECB /* ViewController.h */,
+				7615F27F1D53891900B2BECB /* ViewController.m */,
+				7615F2811D53891900B2BECB /* Main.storyboard */,
+				7615F2841D53891900B2BECB /* Assets.xcassets */,
+				7615F2861D53891900B2BECB /* LaunchScreen.storyboard */,
+				7615F2891D53891900B2BECB /* Info.plist */,
+				7615F2781D53891900B2BECB /* Supporting Files */,
+			);
+			path = QWPopupWindow;
+			sourceTree = "<group>";
+		};
+		7615F2781D53891900B2BECB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7615F2791D53891900B2BECB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7615F2911D53891900B2BECB /* QWPopupWindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				7615F2921D53891900B2BECB /* QWPopupWindowTests.m */,
+				7615F2941D53891900B2BECB /* Info.plist */,
+			);
+			path = QWPopupWindowTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7615F2741D53891900B2BECB /* QWPopupWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7615F2971D53891900B2BECB /* Build configuration list for PBXNativeTarget "QWPopupWindow" */;
+			buildPhases = (
+				7615F2711D53891900B2BECB /* Sources */,
+				7615F2721D53891900B2BECB /* Frameworks */,
+				7615F2731D53891900B2BECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QWPopupWindow;
+			productName = QWPopupWindow;
+			productReference = 7615F2751D53891900B2BECB /* QWPopupWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7615F28D1D53891900B2BECB /* QWPopupWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7615F29A1D53891900B2BECB /* Build configuration list for PBXNativeTarget "QWPopupWindowTests" */;
+			buildPhases = (
+				7615F28A1D53891900B2BECB /* Sources */,
+				7615F28B1D53891900B2BECB /* Frameworks */,
+				7615F28C1D53891900B2BECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7615F2901D53891900B2BECB /* PBXTargetDependency */,
+			);
+			name = QWPopupWindowTests;
+			productName = QWPopupWindowTests;
+			productReference = 7615F28E1D53891900B2BECB /* QWPopupWindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7615F26D1D53891900B2BECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QW;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wangqw;
+				TargetAttributes = {
+					7615F2741D53891900B2BECB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 89BZ957YW3;
+					};
+					7615F28D1D53891900B2BECB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 89BZ957YW3;
+						TestTargetID = 7615F2741D53891900B2BECB;
+					};
+				};
+			};
+			buildConfigurationList = 7615F2701D53891900B2BECB /* Build configuration list for PBXProject "QWPopupWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7615F26C1D53891900B2BECB;
+			productRefGroup = 7615F2761D53891900B2BECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7615F2741D53891900B2BECB /* QWPopupWindow */,
+				7615F28D1D53891900B2BECB /* QWPopupWindowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7615F2731D53891900B2BECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7615F2881D53891900B2BECB /* LaunchScreen.storyboard in Resources */,
+				7615F2851D53891900B2BECB /* Assets.xcassets in Resources */,
+				7615F2831D53891900B2BECB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7615F28C1D53891900B2BECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7615F2711D53891900B2BECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7615F2801D53891900B2BECB /* ViewController.m in Sources */,
+				7615F29F1D53899100B2BECB /* QWPopupWindowVC.m in Sources */,
+				7615F27D1D53891900B2BECB /* AppDelegate.m in Sources */,
+				7615F27A1D53891900B2BECB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7615F28A1D53891900B2BECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7615F2931D53891900B2BECB /* QWPopupWindowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7615F2901D53891900B2BECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7615F2741D53891900B2BECB /* QWPopupWindow */;
+			targetProxy = 7615F28F1D53891900B2BECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7615F2811D53891900B2BECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7615F2821D53891900B2BECB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7615F2861D53891900B2BECB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7615F2871D53891900B2BECB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7615F2951D53891900B2BECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7615F2961D53891900B2BECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7615F2981D53891900B2BECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QWPopupWindow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqw.QWPopupWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7615F2991D53891900B2BECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QWPopupWindow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqw.QWPopupWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7615F29B1D53891900B2BECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QWPopupWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqw.QWPopupWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QWPopupWindow.app/QWPopupWindow";
+			};
+			name = Debug;
+		};
+		7615F29C1D53891900B2BECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QWPopupWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqw.QWPopupWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QWPopupWindow.app/QWPopupWindow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7615F2701D53891900B2BECB /* Build configuration list for PBXProject "QWPopupWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7615F2951D53891900B2BECB /* Debug */,
+				7615F2961D53891900B2BECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7615F2971D53891900B2BECB /* Build configuration list for PBXNativeTarget "QWPopupWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7615F2981D53891900B2BECB /* Debug */,
+				7615F2991D53891900B2BECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7615F29A1D53891900B2BECB /* Build configuration list for PBXNativeTarget "QWPopupWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7615F29B1D53891900B2BECB /* Debug */,
+				7615F29C1D53891900B2BECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7615F26D1D53891900B2BECB /* Project object */;
+}
